@@ -13,4 +13,4 @@
 查看具体修改的内容：git diff
 退到上一个版本：git reset --hard HEAD^
 	          git reset --hard id号
-
+查询所有操作：git reflog
