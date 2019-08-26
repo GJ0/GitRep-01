@@ -14,3 +14,4 @@
 退到上一个版本：git reset --hard HEAD^
 	          git reset --hard id号
 查询所有操作：git reflog
+添加当前目录下所有文件：git add ./
