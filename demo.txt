@@ -1,2 +1,8 @@
-111111111
-222222222
+添加名字：git config --global user.name"名字"
+添加邮箱：git config --global user.email"邮箱"
+初始化建版本库：git init
+添加文件：git add 文件名
+	git commit -m“注释”
+修改内容：git add 文件名
+	git status
+	git commit -m“注释”
