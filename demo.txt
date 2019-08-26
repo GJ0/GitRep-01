@@ -16,3 +16,4 @@
 查询所有操作：git reflog
 添加当前目录下所有文件：git add ./
 比较当前工作区和暂存区文件的区别：git diff HEAD -- 文件名
+撤销暂存区的文件，回到工作区：git reset HEAD <文件名>
