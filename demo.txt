@@ -6,3 +6,4 @@
 修改内容：git add 文件名
 	git status
 	git commit -m“注释”
+查询目录（有几个版本）：git log
