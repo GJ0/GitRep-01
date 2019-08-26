@@ -6,4 +6,9 @@
 修改内容：git add 文件名
 	git status
 	git commit -m“注释”
-查询目录（有几个版本）：git log
+查询目录（有几个版本）：git log 
+简化版：git log --pretty=oneline
+显示当前目录：pwd
+丢弃文档在工作区的修改：git checkout --文件名
+查看具体修改的内容：git diff
+
