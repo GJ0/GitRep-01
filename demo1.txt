@@ -1,0 +1,22 @@
+添加名字：git config --global user.name"名字"
+添加邮箱：git config --global user.email"邮箱"
+初始化建版本库：git init
+添加文件：git add 文件名
+	git commit -m“注释”
+修改内容：git add 文件名
+	git status
+	git commit -m“注释”
+查询目录（有几个版本）：git log 
+简化版：git log --pretty=oneline
+显示当前目录：pwd
+丢弃文档在工作区的修改：git checkout -- 文件名
+查看具体修改的内容：git diff
+退到上一个版本：git reset --hard HEAD^
+	          git reset --hard id号
+查询所有操作：git reflog
+添加当前目录下所有文件：git add ./
+比较当前工作区和暂存区文件的区别：git diff HEAD -- 文件名
+撤销暂存区的文件，回到工作区：git reset HEAD 文件名
+删除工作区文件：rm 文件名
+删除暂存区文件：git rm 文件名
+1
